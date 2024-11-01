@@ -1,4 +1,3 @@
 void main() {
-  String?  someValue;
-  print(someValue);
+  print('Hello, world');
 }
