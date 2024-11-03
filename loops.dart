@@ -18,4 +18,26 @@ void main() {
   for (int i = 0; i < myWord.length; i++) {
     print(myWord[i]);
   }
+
+  // while loop
+
+  /* while (condition) {
+      statement
+   }
+   */
+
+  int i = 0;
+  while (i < myWord.length) {
+    print(myWord[i]);
+    i++;
+  }
+
+  // Do while loop
+
+  int n = 0;
+  do {
+    print(myWord[n]);
+    n++;
+  } while (n < myWord.length);
+  {}
 }
